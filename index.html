@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chicas Digitalers - Quiz</title>
+
+    <link rel="icon" href="imgs/icono.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="nav">
+        <a href="">
+            <img src="imgs/logoccp.png" alt="">
+        </a>
+    </div>
+
+    <div class="contenido">
+            <div class="form-nombre">
+
+        <div class="menu-principal">
+
+            <div class="texto-superior">
+                <h1>QUIZ: Descubrí tu próxima experiencia Chicas Digitalers</h1>
+
+                <p>Todas podemos crear tecnología Este mini quiz te ayuda a descubrir cuál es la mejor experiencia para vos. Recordá que no necesitás tener conocimientos previos para participar en ninguna de las experiencias (Si ya hiciste alguna experiencia, lo vamos a tener en cuenta.)</p>
+            </div>
+
+            <form id="form-nombre" action="">
+                <label for="nombre">Ingresa tu nombre</label>
+                <input name="nombre" id="nombre" type="text">
+                <button type="submit">Comenzar</button>
+                <div class="error" id="error-nombre">
+                    <p>Inserte un nombre para comenzar!</p>
+                </div>
+            </form>
+
+        </div>
+
+    </div>
+
+    <div class="preg" id="preg-uno">
+        <div class="contador-preg">
+            <p>Pregunta 1 de 7</p>
+        </div>
+
+        <p>1. ¿En qué momento sentís que estás?</p>
+
+        <div class="cont-preg">
+            <form id="form-preg-uno" action="" class="form-preg">
+            <div class="opcion">
+                <input type="radio" name="preguntaUno" id="pregUno-opcionUno" value="A">
+                <label for="pregUno-opcionUno">
+                A) Quiero dar mis primeros pasos y entender lo básico.
+                </label>
+            </div>
+
+            <div class="opcion">
+                <input type="radio" name="preguntaUno" id="pregUno-opcionDos" value="B">
+                <label for="pregUno-opcionDos">
+                B) Ya probé algo y quiero construir cosas más completas.
+                </label>
+            </div>
+
+            <div class="opcion">
+                <input type="radio" name="preguntaUno" id="pregUno-opcionTres" value="C">
+                <label for="pregUno-opcionTres">
+                C) Quiero innovar, crear proyectos más desafiantes y liderar ideas.</label>
+            </div>
+
+            <div class="contenedor-btn">
+                <button type="submit">Siguiente</button>
+                <div class="error-preg" >
+                    <p>Debe seleccionar una opcion para seguir.</p>
+                </div>
+            </div>
+        </form>
+        </div>
+
+    </div>
+
+    <div class="preg" id="preg-dos">
+        <div class="contador-preg">
+            <p>Pregunta 2 de 7</p>
+        </div>
+
+        <p>2. ¿Qué te motiva más hoy?</p>
+
+        <div class="cont-preg">
+        <form id="form-preg-dos" action="" class="form-preg">
+            <div class="opcion">
+                <input type="radio" name="preguntaDos" id="pregDos-opcionUno" value="A">
+                <label for="pregDos-opcionUno">
+                A) Descubrir cómo funciona la programación por bloques.
+                </label>
+            </div>
+
+            <div class="opcion">
+                <input type="radio" name="preguntaDos" id="pregDos-opcionDos" value="B">
+                <label for="pregDos-opcionDos">
+                B) Escribir código y crear algo propio desde cero.
+                </label>
+            </div>
+
+            <div class="opcion">
+                <input type="radio" name="preguntaDos" id="pregDos-opcionTres" value="C">
+                <label for="pregDos-opcionTres">
+                C) Usar tecnología avanzada para generar impacto real.</label>
+            </div>
+
+            <div class="contenedor-btn">
+                <button type="submit">Siguiente</button>
+                <div class="error-preg">
+                    <p>Debe seleccionar una opcion para seguir.</p>
+                </div>
+            </div>
+        </form>
+        </div>
+    </div>
+
+    <div class="preg" id="preg-tres">
+        <div class="contador-preg">
+            <p>Pregunta 3 de 7</p>
+        </div>
+
+        <p>3. ¿Cómo te gustaría que sea tu próximo desafío?</p>
+
+        <div class="cont-preg">
+        <form id="form-preg-tres" action="" class="form-preg">
+            <div class="opcion">
+                <input type="radio" name="preguntaTres" id="pregTres-opcionUno" value="A">
+                <label for="pregTres-opcionUno">
+                A) Divertido, creativo y paso a paso.
+                </label>
+            </div>
+
+            <div class="opcion">
+                <input type="radio" name="preguntaTres" id="pregTres-opcionDos" value="B">
+                <label for="pregTres-opcionDos">
+                B) Más técnico, aprendiendo herramientas concretas.
+                </label>
+            </div>
+
+            <div class="opcion">
+                <input type="radio" name="preguntaTres" id="pregTres-opcionTres" value="C">
+                <label for="pregTres-opcionTres">
+                C) Más profundo, combinando creatividad, análisis y liderazgo.</label>
+            </div>
+
+            <div class="contenedor-btn">
+                <button type="submit">Siguiente</button>
+                <div class="error-preg">
+                    <p>Debe seleccionar una opcion para seguir.</p>
+                </div>
+            </div>
+        </form>
+        </div>
+    </div>
+
+    <div class="preg" id="preg-cuatro">
+        <div class="contador-preg">
+            <p>Pregunta 4 de 7</p>
+        </div>
+
+        <p>4. Si mañana empezaras un proyecto, elegirías:</p>
+
+        <div class="cont-preg">
+        <form id="form-preg-cuatro" action="" class="form-preg">
+            <div class="opcion">
+                <input type="radio" name="preguntaCuatro" id="pregCuatro-opcionUno" value="A">
+                <label for="pregCuatro-opcionUno">
+                A) Un programa o app sencilla para resolver algo cotidiano.
+                </label>
+            </div>
+
+            <div class="opcion">
+                <input type="radio" name="preguntaCuatro" id="pregCuatro-opcionDos" value="B">
+                <label for="pregCuatro-opcionDos">
+                B) Tu propia página web con tu estilo.
+                </label>
+            </div>
+
+            <div class="opcion">
+                <input type="radio" name="preguntaCuatro" id="pregCuatro-opcionTres" value="C">
+                <label for="pregCuatro-opcionTres">
+                C) Un videojuego interactivo.</label>
+            </div>
+
+            <div class="opcion">
+                <input type="radio" name="preguntaCuatro" id="pregCuatro-opcionCuatro" value="C">
+                <label for="pregCuatro-opcionCuatro">
+                D) Un proyecto con inteligencia artificial.</label>
+            </div>
+
+            <div class="contenedor-btn">
+                <button type="submit">Siguiente</button>
+                <div class="error-preg">
+                    <p>Debe seleccionar una opcion para seguir.</p>
+                </div>
+            </div>
+        </form>
+        </div>
+    </div>
+
+    <div class="preg" id="preg-cinco">
+        <div class="contador-preg">
+            <p>Pregunta 5 de 7</p>
+        </div>
+
+        <p>5. ¿Qué palabra te representa más?</p>
+
+        <div class="cont-preg">
+        <form id="form-preg-cinco" action="" class="form-preg">
+            <div class="opcion">
+                <input type="radio" name="preguntaCinco" id="pregCinco-opcionUno" value="A">
+                <label for="pregCinco-opcionUno">
+                A) Lógica
+                </label>
+            </div>
+
+            <div class="opcion">
+                <input type="radio" name="preguntaCinco" id="pregCinco-opcionDos" value="B">
+                <label for="pregCinco-opcionDos">
+                B) Diseño
+                </label>
+            </div>
+
+            <div class="opcion">
+                <input type="radio" name="preguntaCinco" id="pregCinco-opcionTres" value="C">
+                <label for="pregCinco-opcionTres">
+                C) Juego</label>
+            </div>
+
+            <div class="opcion">
+                <input type="radio" name="preguntaCinco" id="pregCinco-opcionCuatro" value="D">
+                <label for="pregCinco-opcionCuatro">
+                D) Innovación</label>
+            </div>
+
+            <div class="contenedor-btn">
+                <button type="submit">Siguiente</button>
+                <div class="error-preg">
+                    <p>Debe seleccionar una opcion para seguir.</p>
+                </div>
+            </div>
+        </form>
+        </div>
+    </div>
+
+    <div class="preg" id="preg-seis">
+        <div class="contador-preg">
+            <p>Pregunta 6 de 7</p>
+        </div>
+
+        <p>6. Cuando imaginás tu futuro en tecnología, te ves…</p>
+
+        <div class="cont-preg">
+        <form id="form-preg-seis" action="" class="form-preg">
+            <div class="opcion">
+                <input type="radio" name="preguntaSeis" id="pregSeis-opcionUno" value="A">
+                <label for="pregSeis-opcionUno">
+                A) Entendiendo cómo funciona todo desde la base.
+                </label>
+            </div>
+
+            <div class="opcion">
+                <input type="radio" name="preguntaSeis" id="pregSeis-opcionDos" value="B">
+                <label for="pregSeis-opcionDos">
+                B) Creando sitios web o programando en distintos lenguajes.
+                </label>
+            </div>
+
+            <div class="opcion">
+                <input type="radio" name="preguntaSeis" id="pregSeis-opcionTres" value="C">
+                <label for="pregSeis-opcionTres">
+                C) Diseñando experiencias interactivas.
+                </label>
+            </div>
+
+            <div class="opcion">
+                <input type="radio" name="preguntaSeis" id="pregSeis-opcionCuatro" value="D">
+                <label for="pregSeis-opcionCuatro">
+                D) Trabajando con IA o tecnología avanzada.
+            </label>
+            </div>
+
+            <div class="contenedor-btn">
+                <button type="submit">Siguiente</button>
+                <div class="error-preg">
+                    <p>Debe seleccionar una opcion para seguir.</p>
+                </div>
+            </div>
+        </form>
+        </div>
+    </div>
+
+    <div class="preg" id="preg-siete">
+        <div class="contador-preg">
+            <p>Pregunta 7 de 7</p>
+        </div>
+
+        <p>7. ¿Ya participaste en alguno de estas experiencias?</p>
+
+        <div class="cont-preg">
+        <form id="form-preg-siete" action="" class="form-preg">
+            <div class="opcion">
+                <input type="radio" name="preguntaSiete" id="pregSiete-opcionUno" value="A">
+                <label for="pregSiete-opcionUno">
+                A) No, sería mi primera vez.
+                </label>
+            </div>
+
+            <div class="opcion">
+                <input type="radio" name="preguntaSiete" id="pregSiete-opcionDos" value="B">
+                <label for="pregSiete-opcionDos">
+                B) Sí, Código Creativo.
+                </label>
+            </div>
+
+            <div class="opcion">
+                <input type="radio" name="preguntaSiete" id="pregSiete-opcionTres" value="C">
+                <label for="pregSiete-opcionTres">
+                C) Sí, Web Creators.
+                </label>
+            </div>
+
+            <div class="opcion">
+                <input type="radio" name="preguntaSiete" id="pregSiete-opcionCuatro" value="D">
+                <label for="pregSiete-opcionCuatro">
+                D) Sí, Game Lab.
+            </label>
+            </div>
+
+            <div class="opcion">
+                <input type="radio" name="preguntaSiete" id="pregSiete-opcionCinco" value="E">
+                <label for="pregSiete-opcionCinco">
+                E) Sí, IA en Acción.
+            </label>
+            </div>
+
+            <div class="contenedor-btn">
+                <button type="submit">Siguiente</button>
+                <div class="error-preg" >
+                    <p>Debe seleccionar una opcion para seguir.</p>
+                </div>
+            </div>
+        </form>
+        </div>
+    </div>
+
+    <div class="respuesta" id="respuesta-final">
+        <p id="texto-resultado"></p>
+        <div id="codigo-creativo">
+            <a target="_blank" href="https://forms.gle/PWWcG8bRaH4JJnSk8">
+            <img src="imgs/codigo-creativo.jpeg" alt="">
+            </a>
+        </div>
+        <div id="web-creators">
+            <a target="_blank" href="https://forms.gle/PWWcG8bRaH4JJnSk8">
+            <img src="imgs/web-creator.jpeg" alt="">
+            </a>
+        </div>
+        <div id="game-lab">
+            <a target="_blank" href="https://forms.gle/PWWcG8bRaH4JJnSk8">
+            <img src="imgs/game-lab.jpeg" alt="">
+            </a>
+        </div>
+        <div id="ia-accion">
+            <a target="_blank" href="https://forms.gle/PWWcG8bRaH4JJnSk8">
+            <img src="imgs/ia-accion.jpeg" alt="">
+            </a>
+        </div>
+        <a target="_blank" href="https://forms.gle/PWWcG8bRaH4JJnSk8">Formulario de postulacion</a>
+    </div>
+    </div>
+
+    <div class="info">
+    <b>by @Cprogramadoras</b>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
