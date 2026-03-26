@@ -46,6 +46,45 @@ body {
     margin: 1vh;
 }
 
+.contenedor-nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor-redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.contenedor-redes .contenedor-icono {
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.contenedor-redes .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width: 22px;
+    color: #5854A4; 
+}
+
+.contenedor-redes a:hover {
+    cursor: pointer;
+    transition: .2s;
+    background-color: #75B34E;
+    color:#fff; 
+}
+
+.contenedor-redes .icon:hover {
+    transition: .2s;
+    color:#fff; 
+}
+
 .info {
     width: 100%;
     margin-top: auto;
@@ -293,6 +332,13 @@ button:hover {
     .nav a img {
         width: 2vh;
         height: auto;
+    }
+
+    .contenedor-nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 2vh;
     }
 
     .texto-superior {
