@@ -131,9 +131,9 @@ form label {
 }
 
 .form-nombre input {
-    height: 25px;
+    height: 42px;
     width: 200px;
-    padding: 5px;
+    padding: 12px;
     border: none;
     border-bottom: 1px solid #000;
     transition: .2s;
