@@ -268,7 +268,7 @@ button:hover {
         font-size: 18px;
     }
 
-    .nav img {
+    .nav a img {
         width: 2vh;
         height: auto;
     }
